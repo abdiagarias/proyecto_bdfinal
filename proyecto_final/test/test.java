@@ -2,9 +2,9 @@ package com.jc.model;
 
 import java.sql.CallableStatement;
 import java.sql.Connection;
-public class TestProcedimiento {
+public class test {
     public static void main(String args[])throws Exception{
-        Conexion c=new Conexion();
+        conexion c=new conexion();
         Connection con=c.conectarse();
         CallableStatement callate=con.prepareCall("{call autenticar_usuario_1(?,?,?)}");
         callate.registerOutParameter(1,java.sql.Types.INTEGER);
@@ -16,7 +16,7 @@ public class TestProcedimiento {
         System.out.println("El id insertado es:"+pk);
     }
   }
-Crear otra java clas llamada buscar usuario
+
 package com.jc.model;
 
 import java.util.ArrayList;

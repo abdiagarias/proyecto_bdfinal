@@ -3,11 +3,11 @@ package com.jc.model;
 
 import java.sql.*;
 import java.util.ArrayList;
-public class DAOUsuario {
-    static Conexion con;
+public class Usuario {
+    static conexion con;
     
-    public DAOUsuario(){
-        con=new Conexion();
+    public Usuario(){
+        con=new conexion();
     }
     
     public void insertar(Usuario u)throws Exception{

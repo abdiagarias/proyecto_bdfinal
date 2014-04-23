@@ -35,12 +35,12 @@ public class Usuario {
     public void setPassword(String password) {
         this.password = password;
     }
-    public String getComentario() {
+    public String getcomentario() {
         return comentario;
     }
 
-    public void setComentario (String comentario) {
-        this.Comentario = comentario;
+    public void setcomentario (String comentario) {
+        this.comentario = comentario;
     }
 
     
